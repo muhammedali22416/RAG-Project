@@ -1,0 +1,26 @@
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Keys
+.env
+.env.local
+.env.*.local
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Uploads & User Files
+uploads/
+*.pdf
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+*.log
