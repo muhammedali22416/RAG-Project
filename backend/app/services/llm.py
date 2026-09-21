@@ -44,7 +44,7 @@ Context:
 
     # 4. Fallback Model Execution
     # Standard active Groq models:
-    available_models = ["llama-3.1-8b-instant", "mixtral-8x7b-32768", "gemma2-9b-it"]
+    available_models = ["openai/gpt-oss-20b", "openai/gpt-oss-120b"]
     
     last_error = None
     for model_name in available_models:
